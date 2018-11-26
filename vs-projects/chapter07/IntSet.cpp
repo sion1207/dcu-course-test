@@ -7,7 +7,11 @@ int Initialize(IntSet *s, int max)
 	s->num = 0;
 	if ((s->set = calloc(max, sizeof(int))) == NULL) {
 		s->max = 0;
+<<<<<<< HEAD
 		return -1;
+=======
+		return - 1;
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
 	}
 	s->max = max;
 	return 0;
@@ -43,7 +47,11 @@ int Capacity(const IntSet *s)
 
 int Size(const IntSet *s)
 {
+<<<<<<< HEAD
 	return s->num;
+=======
+	return s-> num;
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
 }
 
 void Assign(IntSet *s1, const IntSet *s2)
@@ -60,7 +68,11 @@ int Equal(const IntSet *s1, const IntSet *s2)
 	int i, j;
 	if (Size(s1) != Size(s2))
 		return 0;
+<<<<<<< HEAD
 	for (i = 0; i < s1->num; i++) {
+=======
+	for(i = 0; i < s1->num; i++) {
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
 		for (j = 0; j < s2->num; j++)
 			if (s1->set[i] == s2->set[j])
 				break;
@@ -112,7 +124,11 @@ void proint(const IntSet *s)
 
 	printf("{ ");
 	for (i = 0; i < s->num; i++)
+<<<<<<< HEAD
 		printf("%d ", s->set[i]);
+=======
+		printf("%d ", s -> set[i]);
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
 	printf("} ");
 }
 
@@ -124,10 +140,18 @@ void PrintLn(const IntSet *s)
 
 void Terminate(IntSet *s)
 {
+<<<<<<< HEAD
 	if (s->set != NULL)
+=======
+	if(s->set != NULL)
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
 	{
 		free(s->set);
 		s->max = s->num = 0;
 
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3

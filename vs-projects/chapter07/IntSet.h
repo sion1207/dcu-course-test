@@ -34,4 +34,7 @@ void Println(const IntSet *s);
 
 void Terminate(IntSet *s);
 #endif
+<<<<<<< HEAD
 
+=======
+>>>>>>> 36ba4d0cbbf127c813c238dfc3596f790b1f91a3
