@@ -20,7 +20,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tSet.cpp">
+    <ClCompile Include="IntSet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IntSetTest1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

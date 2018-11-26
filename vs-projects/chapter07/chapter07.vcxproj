@@ -118,7 +118,8 @@
     <ClInclude Include="IntSet.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tSet.cpp" />
+    <ClCompile Include="IntSet.cpp" />
+    <ClCompile Include="IntSetTest1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
